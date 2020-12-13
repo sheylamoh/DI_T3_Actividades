@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import selectordeslizamiento.SelectorDeslizamiento?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="174.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorController">
+   <children>
+      <Label alignment="TOP_LEFT" prefHeight="27.0" prefWidth="92.0" text="Selectores" textFill="RED">
+         <VBox.margin>
+            <Insets bottom="20.0" left="35.0" />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <SelectorDeslizamiento fx:id="component1">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </SelectorDeslizamiento>
+      <SelectorDeslizamiento fx:id="component2">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </SelectorDeslizamiento>
+      <Label fx:id="result">
+         <VBox.margin>
+            <Insets left="40.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+   <padding>
+      <Insets left="60.0" />
+   </padding>
+</VBox>
